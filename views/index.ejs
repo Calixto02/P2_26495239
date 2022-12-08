@@ -43,5 +43,24 @@
               <p>Manejo de programas de diseño grafico</p>
               <p>Buen gerente</p>
   </div>
+<div class="form">
+    <form class="form" action="/" method="POST">
+        <h2>Contacto</h2>
+        <p type="Nombre:">
+            <input name="nombre" placeholder="indique su nombre completo..." value="<%= tarea.nombre%>">
+           
+
+        <p type="Email:">
+            <input name="email" placeholder="indique su Email..." value="<%= tarea.email%>">
+        </p>
+
+        <p type="Comentario:">
+            <input name="comentario" placeholder="Dejenos su comentario..." value="<%= tarea.comentario%>">
+        </p>
+            <button type="submit">Enviar mensaje</button>
+            <input type="hidden" name="ip" value="<%= tarea.ip%>"/>
+            <input type="hidden" name="fecha" value="<%= tarea.fecha%>">
+    <form>
+</div>
   </body>
 </html>
