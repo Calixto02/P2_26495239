@@ -252,3 +252,47 @@ tr:nth-child(even){
 tr:nth-child(odd){
     background-color: rgb(195, 222, 251);
 }
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/Fondo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+div{
+  margin-left: 5%;  
+  margin-right: 5%;  
+  border: 2px solid black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.89));
+}
+
+p{
+  box-align: "center";
+  text-align: center;
+    font-family: 'Helvetica' ;
+    font-size: 24px;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.877);
+    -webkit-text-stroke:0.5px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+}
+
+A{
+  font-family: 'Lucida Console';
+  font-size: 25px;
+
+}
+
+h2{
+    text-align: center;
+    font-family: 'Lucida Console';
+    font-size: 38px;
+    -webkit-text-fill-color: rgb(236, 0, 0);
+    -webkit-text-stroke:1.5px;
+    -webkit-text-stroke-color:rgb(255, 1, 1);
+}
+
+#barra{
+  margin-left: 15%;  
+  margin-right: 15%;  
+}
