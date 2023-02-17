@@ -8,6 +8,7 @@
     <title>Contactos</title>
 </head>
 <body>
+  <h4><A HREF="/logout">Logout</A> </h4>
     <table>
         <thead>
           <tr>
@@ -16,6 +17,7 @@
             <th>Comentario</th>
             <th>Fecha-Hora</th>
             <th>IP</th>
+            <th>Pais</th>
           </tr>
         </thead>
         <tbody>
@@ -26,6 +28,7 @@
             <td><%= obtener.comentario%></td>
             <td><%= obtener.fecha%></td>
             <td><%= obtener.ip%></td>
+            <td><%= obtener.pais%></td>
           </tr>
           <% } %>
         </tbody>
